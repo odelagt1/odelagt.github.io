@@ -3,7 +3,7 @@
     src: url('font/CascadiaCode.ttf')
 }
 body {
-    background-color: #312c54;
+    background-color: #542c2c;
     font-family: 'Code';
     color: #ffffff;
     animation: fadeInAnimation ease 4s;
@@ -23,13 +23,13 @@ a{
 }
 .terminal {
     overflow-y:scroll;
-    border-radius: 8px;
-    border: 2.8px solid #ffffff;
+    border-radius: 4px;
+    border: 2px solid #ffffffd8;
     scrollbar-width: none;
 }
 .terminal::-webkit-scrollbar {
     display: none !important;
 }
-.user { color: #ffb03a }
-.directory { color: #c863fe }
+.user { color: #3aff8f }
+.directory { color: ##daff1f}
 .symbols { color: #2dff73; }
