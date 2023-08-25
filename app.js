@@ -22,17 +22,16 @@ let command_history = [""]
 
 const prompt = `<span class="user">you@kyrstr-website</span><span class="symbols">:</span><span class="directory">~</span><span class="symbols">$</span>&nbsp;`;
 const files = {
-    'about_me.txt': `Hey!, I'm Kayra and i'm 16.<br> I was born in Istanbul <br> and I continue my life in Istanbul<br><br>
-    I like programming, listening to music and playing guitar <br> I try to improve myself <br><br>isn't that enough? <br> write 'contact' to contact me <br> `, 
-    'social.txt': `<a target="_blank" href="https://github.com/kyrstr1"> github</a>  or 
-    <a target="_blank" href="https://www.instagram.com/kyrstr1/">instagram</a>`
+    'about_me.txt': `Hey!, I'm Obehag and i'm 21.<br> I was born in Sweden <br> and I continue my life in Sweden<br><br>
+    I like listening to music and playing guitar <br> I try to improve myself <br><br>isn't that enough? <br> write 'contact' to contact me <br> `, 
+    'social.txt': `No Social Skills :(`
 }
 
 const commands = {
     'help': 'guess what? <br>',
     'about': 'information about myself <br>',
     'contact': 'contact with me <br>',
-    'clear': 'clears the terminal history. <br>',
+    'clear': 'clear. <br>',
 }
 
 function cmd_controller(input_value) {
